@@ -1,0 +1,26 @@
+{
+  "name": "my-first-portfolio-website",
+  "version": "1.0.0",
+  "description": "My portfolio website",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "build-css": "npx tailwindcss -i ./src/input.css -o ./build/style/output.css",
+    "watch-css": "npx tailwindcss -i ./src/input.css -o ./build/style/output.css --watch",
+    "dev": "npm run watch-css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hopeson-Jockiel/my-first-portfolio-website.git"
+  },
+  "keywords": [],
+  "author": "Your Name",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hopeson-Jockiel/my-first-portfolio-website/issues"
+  },
+  "homepage": "https://github.com/Hopeson-Jockiel/my-first-portfolio-website#readme",
+  "devDependencies": {
+    "tailwindcss": "^4.1.18"
+  }
+}
